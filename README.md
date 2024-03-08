@@ -5,9 +5,9 @@ MineSweeper
 Oyun Kuralları
 
 
-Oyun metin tabanlıdır.
-Proje çift boyutlu diziler kullanılarak yapılmalıdır.
-MineSweeper sınıfı içerisinde tasarlanmalıdır. Metodlar kullanılarak kod tekrarı önlenmelidir.
+-Oyun metin tabanlıdır.
+-Proje çift boyutlu diziler kullanılarak yapılmalıdır.
+-MineSweeper sınıfı içerisinde tasarlanmalıdır. Metodlar kullanılarak kod tekrarı önlenmelidir.
 Matris boyutunu yani satır ve sütun sayısını kullanıcı belirlemelidir. Minimum 2x2 boyutunda matris grişine izin verilmeli, 2x2 den küçük değer girişlerinde kullanıcıya uyarı verilmeli ve tekrar satır, sütun girmesi istenmelidir.
 Diziye ait eleman sayısının çeyreği (elemanSayisi / 4) kadar rastgele mayın yerleştirilmelidir. Mayın sayısı, eleman sayısı/4'ten az ya da çok olmamalıdır. Örneğin dizi 4x3 boyutunda ise eleman sayısı (satırSayısı * sütunSayısı) formülü ile hesaplanmalı ve boyutu 12 olacaktır. Bu durumda mayın sayısı 12 / 4 = 3 adet olmalıdır. 3'ten az ya da çok olmamalıdır.
 İpucu: 2 boyutlu diziler string veri türünde olması işinizi kolaylaştıracaktır. Mayınların konumlarını tutacak bir dizi, oyuncuya göstereceğiniz ayrı bir dizi tanımlamalısınız.
